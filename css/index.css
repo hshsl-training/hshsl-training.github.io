@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+ *    HSHSL on GitHub
+ *    http://hshsl.github.io
+ *    http://github.com/hshsl
+ *    ...
+ */
+
+body { min-height: 100vh; }
+
+.vh100 { height: 100vh; }
+
+.flex-justify-center { justify-content: center; }
+
+.landing_page {
+  position: fixed;
+  background-image: url(../images/inside_hshsl_180.jpg);
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.h00 { font-size: 4rem; }
+
+@media (min-width: 52em) {
+  .h00-responsive { font-size: 8vw; }
+}
+
+@media (min-width: 96em) {
+  .h00-responsive { font-size: 7.68rem; }
+}
